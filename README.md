@@ -4,8 +4,10 @@
 시나리오 9종을 자동 비교·해설하는 프로그램입니다. (Python · Pyomo · HiGHS)
 
 ## 실행
+```
 pip install -r requirements.txt
 python run_scenarios.py uc_input_week6.xlsx --all
+```
 
 ## 핵심 결과
 - 수요반응 모델은 솔버가 스스로 18–22시(수요 피크)를 학습 휴지로 선택 → 정전 0 MWh, 하루 운영비 −59,685 $
